@@ -1,0 +1,71 @@
+/* Estilo geral do corpo da página */
+body {
+    display: flex;
+    flex-direction: column; /* Coloca os itens em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0;
+    background-color: GREEN; /* Cor de fundo para contraste */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+  color:white;
+}
+
+/* Botão estilizado */
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: block; /* Faz com que cada botão seja um bloco */
+    margin: 10px; /* Espaçamento entre os botões */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do modal */
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed;
+    z-index: 1; /* Fica em cima dos outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Adiciona rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo preta */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo preta com transparência */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centraliza o modal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Largura do modal */
+    max-width: 500px; /* Largura máxima do modal */
+    border-radius: 5px;
+}
+
+.close, .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus, .close2:hover, .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tela Inicial PAJOC</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAJOC</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <h1>PAJOC</h1>
+    <button id="jogar" class="button">Iniciar Jogo</button>
+    <button id="regras" class="button">Regras</button>
+    <button id="creditos" class="button">Créditos</button>
+
+    <!-- O Modal para Regras -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>REGRAS</p>
+          <p>A primeira carta de cada pilha define quem irá começar</p>
+          <p>Serão viradas 4 cartas e uma será revelada</p>
+          <p> A carta revelada será a carta "Banida"</p>
+          <p>O jogador deverá escolher uma carta para tentar adivinhar a carta virada na mesa</p>
+          <p> Caso acerte, ganhará pontos correspondentes ao valor da carta (Ás=1,Valete=11, Dama=12, Rei=13)</p>
+          <p>Você não pode escolher a mesma carta que escolheu em sua rodada passada</p>
+          <p> Você não pode escolher a mesma carta que seu adversário escolheu por ultimo</p>
+          <p>Você não pode escolher a "carta banida" da rodada</p>
+          <p> Ganha quem tiver mais pontos</p>
+        </div>
+    </div>
+
+    <!-- O Modal para Créditos -->
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <span class="close2">&times;</span>
+            <p>CREDITOS</p>
+          <p>Desenvolvido por Sao Ganie </p>
+          <p> Jogo criado por Sao Ganie </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o JS -->
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
