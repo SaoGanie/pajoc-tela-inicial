@@ -23,7 +23,7 @@ btnCreditos.onclick = function() {
 
 // Quando o usuário clicar no botão "Iniciar Jogo", redireciona para a página do jogo
 btnJogar.onclick = function() {
-    window.location.href = "https://codepen.io/SaoGanie/full/VwJKpxw";
+    window.location.href = "https://saoganie.github.io/pajoc/";
 }
 
 // Quando o usuário clicar no <span> (x), fecha o modal "Regras"
